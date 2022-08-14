@@ -7,7 +7,7 @@
         list: return answer
 */
 List func() {
-  return [1];
+  return [];
 }
 
 void main() {
