@@ -7,4 +7,12 @@
     Returns:
         list: return answer
 */
-void main() {}
+List func(List list1, int i) {
+  List x = [];
+  x.add(list1[i]);
+  return x.toList();
+}
+
+void main() {
+  print(func([11, 22, 33, 44, 55, 66, 77], 2));
+}
